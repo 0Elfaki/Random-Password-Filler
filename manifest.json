@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Random Password Filler",
+  "version": "1.1",
+  "description": "Fills password fields with random passwords when enabled. Developed by Megdad Elfaki",
+  "author": "Megdad Elfaki",
+  "homepage_url": "https://zatii.com",
+  
+  "permissions": ["storage", "scripting", "activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon.png",
+      "48": "icons/icon.png",
+      "128": "icons/icon.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["utils.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
