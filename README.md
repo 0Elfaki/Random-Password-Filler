@@ -1,57 +1,30 @@
-# 🔐 Random Password Filler - Chrome Extension
+# Random Password Filler
 
-A simple and effective Chrome extension that automatically fills in password fields with strong, randomly generated passwords. Designed for developers, testers, and privacy-conscious users.
+**Random Password Filler** is a Chrome extension that quickly and securely fills password fields on any website with strong, randomly generated passwords.
 
----
+## Features
 
-## 🚀 Features
+- Instantly fills password fields with secure random passwords  
+- Easy toggle to enable/disable from the popup  
+- Works on all websites  
+- Lightweight, fast, and privacy-friendly  
+- All operations are performed locally inside your browser  
+- No data is collected or sent anywhere
 
-- 🔒 Instantly fills all password inputs on a page with secure, random passwords
-- ⚙️ Works automatically on supported websites
-- 🧠 Minimal, lightweight, and fast
-- 💡 Developed by **Megdad Elfaki**
+## Privacy Policy
 
----
+This extension does **not collect, store, or share** any personal information.
 
-## 🛠 How It Works
+All actions performed by the extension are executed **locally in your browser**. No data is sent to any external server.
 
-Once the extension is installed and enabled:
-- It scans the current webpage for all password input fields
-- Each field is filled with a randomly generated strong password
-- Perfect for testing signup forms or quickly creating throwaway accounts
+We do not use cookies, analytics, or any third-party tracking tools.
 
----
+## Developer
 
-## 🧪 Use Cases
+Megdad Elfaki  
+Website: [https://zatii.com](https://zatii.com)  
+Contact: [megdad@zatii.com](mailto:megdad@zatii.com)
 
-- Web developers testing login and signup forms
-- QA testers automating test credentials
-- Privacy-focused users avoiding password reuse
+## License
 
----
-
-## 📦 Installation
-
-1. Download or clone this repo:
-   ```bash
-   git clone https://github.com/your-username/random-password-filler.git
-Open Chrome and go to: chrome://extensions/
-
-Enable Developer mode
-
-Click Load unpacked
-
-Select the folder containing the extension
-
-🔧 Technologies Used
-JavaScript (Vanilla)
-
-Chrome Extension APIs
-
-🙋‍♂️ Author
-Developed with 💻 by Megdad Elfaki
-📧 Email: megdad@zatii.com
-
-📜 License
-This project is open-source and available under the MIT License.
-
+This project is free to use.
